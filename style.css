@@ -1,0 +1,62 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    display: flex;
+    font-size: 0.9em;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav{
+    position: absolute;
+    right: 30px;
+    width: 350px;
+}
+
+nav ul li:nth-child(1) a{
+    color: black;
+    font-weight: 500;
+}
+
+nav ul li:nth-child(2) a{
+    color: black;
+    font-weight: 500;
+}
+
+nav ul li:nth-child(3) a{
+    color: #0065FC;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+}
+
+.survol:hover a {
+    color: #0065FC;
+}
+
+.survol, #sign-up {
+    padding: 20px;
+    font-size: 0.9em;
+    border-top: solid 2px white;
+}
+
+.survol:hover {
+    border-top: solid 2px #0065FC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    padding: 10px 30px;
+}
