@@ -7,24 +7,21 @@ body{
     padding: 0;
 }
 
-
-
 /* En-tête */
 header{
     display: flex;
-    font-size: 1em;
+    font-size: 0.9em;
+    flex: 100%;
 }
 
 nav ul{
     display: flex;
-    justify-content: space-between;
     list-style-type: none;
 }
 
 nav{
     position: absolute;
-    right: 30px;
-    width: 360px;
+    right: 0;
 }
 
 nav ul li:nth-child(1) a{
@@ -50,10 +47,14 @@ a{
     color: #0065FC;
 }
 
-.survol, #sign-up {
-    padding: 20px;
-    font-size: 0.9em;
+.survol{
+    padding: 30px;
+    
     border-top: solid 2px white;
+}
+
+#sign-up{
+    padding: 30px 60px 30px 30px;
 }
 
 .survol:hover {
@@ -61,7 +62,7 @@ a{
 }
 
 #logo {
-    margin: 30px 0 0 40px;
+    padding: 15px 0 0 30px;
 }
 
 /* container_1 */
@@ -118,7 +119,7 @@ form input:nth-child(2) {
 .filters h3 {
     font-weight: 700;
     padding-top: 10px;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 .filters ul {
@@ -179,6 +180,7 @@ form input:nth-child(2) {
 .filters ul li span {
     padding: 10px;
     font-weight: 700;
+    font-size: 0.8em;
 }
 
 /* info */
@@ -201,5 +203,88 @@ form input:nth-child(2) {
     padding: 3px 7px 3px 7px;
 }
 
+/* container_2 */
 
+.container_2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px 0 40px;
+}
 
+.container_2 section {
+    width: 1000px;
+    height: 580px;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+}
+
+.container_2 h2 {
+    font-size: 0.9em;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.container_img_hebergement {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px 25px 0 25px;
+    height: 450px;
+    align-items: center;
+}
+
+.img_hebergement {
+    width: 235px;
+    height: 200px;
+    border: 3px solid white;
+    border-radius: 12px;
+    background-color: white;
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-top: 1px;
+}
+
+.test {
+    height: 112px;
+    width: 235px;
+    object-fit: cover;
+    border-radius: 11px 11px 0 0;
+    margin-bottom: 5px;;
+}
+
+.img_hebergement h3, p {
+    font-size: 0.8em;
+    color: black;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.img_hebergement p span {
+    font-weight: bold;
+}
+
+.img_hebergement i {
+    font-size: 0.7em;
+    color: #0065FC;
+}
+
+.img_hebergement div {
+    margin-top: -3px;
+    margin-left: 10px;
+}
+
+.star_gris {
+    color: #d3d2d2 !important;
+}
+
+.plus {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+aside {
+    border: 1px solid black;
+}
