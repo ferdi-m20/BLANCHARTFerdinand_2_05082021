@@ -22,6 +22,7 @@ nav ul{
 nav{
     position: absolute;
     right: 0;
+    margin-right: 15px;
 }
 
 nav ul li:nth-child(1) a{
@@ -47,14 +48,10 @@ a{
     color: #0065FC;
 }
 
-.survol{
+.survol, #sign-up{
     padding: 30px;
     
     border-top: solid 2px white;
-}
-
-#sign-up{
-    padding: 30px 60px 30px 30px;
 }
 
 .survol:hover {
@@ -62,7 +59,7 @@ a{
 }
 
 #logo {
-    padding: 15px 0 0 30px;
+    margin: 15px 0 0 30px;
 }
 
 /* container_1 */
@@ -70,19 +67,18 @@ a{
 h1 {
     font-size: 1.1em;
     font-weight: 700;
-    padding: 30px 0 0 30px;
+    margin: 30px 0 0 30px;
 }
 
 h1 + p {
     font-size: 0.9em;
     font-weight: 500;
-    margin: 0;
-    padding: 5px 0 0 30px;
+    margin: 5px 0 0 30px;
 }
 
 form {
     display: flex;
-    padding: 20px 0 0 30px;
+    margin: 20px 0 0 30px;
 }
 
 form i {
@@ -116,25 +112,26 @@ form input:nth-child(2) {
 
 .filters {
     display: flex;
-    padding: 25px 0 0 30px;
+    margin: 25px 0 0 30px;
 }
 
 .filters h3 {
     font-weight: 800;
-    padding-top: 12px;
+    margin-top: 12px;
     font-size: 0.9em;
 }
 
 .filters ul {
     display: flex;
     list-style-type: none;
+    margin-left: 20px;
 }
 
 .filters ul li {
     border: 1px solid #F2F2F2;
     border-radius: 20px;
     border-left: none;
-    margin-left: 20px;
+    
 }
 
 .filters ul li:nth-child(1) div {
@@ -187,7 +184,7 @@ form input:nth-child(2) {
 /* info */
 
 .info {
-    padding: 30px 0 0 30px;
+    margin: 30px 0 0 30px;
     display: flex;
 }
 
@@ -201,92 +198,88 @@ form input:nth-child(2) {
 
 .info p{
     font-size: 0.9em;
-    padding: 3px 7px 3px 10px;
-    margin: 0;
+    margin: 3px 0 0 10px;
 }
 
 /* container_2 */
 
 .container_2 {
     display: flex;
-    justify-content: space-between;
-    margin: 20px 40px 0 40px;
+    margin: 10px 30px 0 30px;
 }
 
 .container_2 section {
-    width: 1000px;
-    height: 580px;
-    border: 1px solid #F2F2F2;
+    flex: 58%;
+    max-width: 58%;
     background-color: #F2F2F2;
-    border-radius: 15px;
+    border-radius: 1em;
+    margin: 20px 10px 0;
+    padding: 30px;
 }
 
-.container_2 h2 {
-    font-size: 0.9em;
-    margin-top: 25px;
-    margin-left: 25px;
+.container_2 aside {
+    
+    border: 1px solid black;
+}
+
+.container_2 section h2 {
+    font-size: 1.1em;
 }
 
 .container_img_hebergement {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 15px 25px 0 25px;
-    height: 450px;
-    align-items: center;
+    margin: 10px -1.5% 10px;
+    justify-content: center;
 }
 
 .img_hebergement {
-    width: 235px;
-    height: 200px;
-    border: 3px solid white;
-    border-radius: 12px;
+    flex: 28.5%;
+    max-width: 28.5%;
+    margin: 1.5%;
     background-color: white;
-    padding-right: 1px;
-    padding-left: 1px;
-    padding-top: 1px;
+    box-shadow: 0 0 5px grey;
+    padding: 5px;
+    border-radius: 1em;
 }
+
 
 .test {
-    height: 112px;
-    width: 235px;
+    width: 100%;
+    height: 8em;
     object-fit: cover;
-    border-radius: 11px 11px 0 0;
-    margin-bottom: 5px;;
+    border-radius: 0.8em 0.8em 0 0;
 }
 
-.img_hebergement h3, p {
-    font-size: 0.8em;
+.plus  {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.img_hebergement h3 {
     color: black;
-    margin-left: 10px;
-    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+.img_hebergement p {
+    color: black;
+    font-size: 0.9em;
 }
 
 .img_hebergement p span {
-    font-weight: bold;
+    font-weight: 700;
 }
 
-.img_hebergement i {
+.img_hebergement div {
     font-size: 0.7em;
     color: #0065FC;
 }
 
-.img_hebergement div {
-    margin-top: -3px;
-    margin-left: 10px;
-}
-
 .star_gris {
-    color: #d3d2d2 !important;
+    color: #e0dada;
 }
 
-.plus {
-    margin-left: 30px;
-    margin-top: 20px;
-    font-weight: bold;
-    font-size: 0.8em;
+.img_hebergement h3, p, div {
+    margin: 5px 0 5px 8px;
 }
 
-aside {
-    border: 1px solid black;
-}
