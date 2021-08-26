@@ -124,14 +124,14 @@ form input:nth-child(2) {
 .filters ul {
     display: flex;
     list-style-type: none;
-    margin-left: 20px;
+    
 }
 
 .filters ul li {
     border: 1px solid #F2F2F2;
     border-radius: 20px;
     border-left: none;
-    
+    margin-left: 20px;
 }
 
 .filters ul li:nth-child(1) div {
