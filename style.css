@@ -1,0 +1,36 @@
+header {
+    margin: 2px 0 10px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav {
+    display: flex;
+}
+
+.header_blank {
+    flex-grow: 4;
+}
+
+a.header_signup {
+    color: #0065FC;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 20px 20px;
+}
+
+.header_li {
+    padding: 20px 20px;
+    font-size: 0.9em;
+    border-top: solid 2px white;
+}
+
+.header_li:hover {
+    border-top: solid 2px #0065FC;
+}
+
+header a:hover {
+    color: #0065FC;
+}
