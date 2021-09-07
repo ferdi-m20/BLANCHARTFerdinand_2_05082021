@@ -34,3 +34,7 @@ a.header_signup {
 header a:hover {
     color: #0065FC;
 }
+
+.intro {
+    margin: 20px 30px 0;
+}
