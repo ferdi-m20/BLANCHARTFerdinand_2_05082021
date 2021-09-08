@@ -72,3 +72,54 @@ header a:hover {
 .search_button::after {
     content: "Rechercher";
 }
+
+.filters {
+    margin: 30px 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.filters_title {
+    font-weight: 800;
+    font-size: 0.9em;
+    margin: 10px 20px 0 0;
+}
+
+.filter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.filter_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5em;
+    width: 1.5em;
+    font-size: 0.9em;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 2em;
+    padding: 0.6em;
+    z-index: 100;
+}
+
+.filter_name {
+    margin: 0 22px 0 -2.8em;
+    font-size: 0.8em;
+    font-weight: 800;
+    border: solid 0.1em #d1d1d1;
+    border-radius: 1.6em;
+    padding: 0.9em 1em 0.8em 3.6em;
+}
+
+.filter_name:hover {
+    color: white;
+    background-color: #0065FC;
+    /* border: solid 1px #0065FC; */
+    /* warning : color et border sont de la même couleur */
+}
