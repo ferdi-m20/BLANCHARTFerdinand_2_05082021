@@ -120,6 +120,4 @@ header a:hover {
 .filter_name:hover {
     color: white;
     background-color: #0065FC;
-    /* border: solid 1px #0065FC; */
-    /* warning : color et border sont de la même couleur */
 }
