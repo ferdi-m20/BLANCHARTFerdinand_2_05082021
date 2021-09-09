@@ -142,3 +142,9 @@ header a:hover {
     margin-right: 10px;
     margin-top: 2px;
 }
+
+.container_2 {
+    margin: 0 20px;
+    display: flex;
+}
+
