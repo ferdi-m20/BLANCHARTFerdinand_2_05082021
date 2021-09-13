@@ -255,3 +255,76 @@ header a:hover {
     font-weight: 700;
     margin-top: 20px;
 }
+
+.container_2 aside {
+    padding: 30px;
+    background-color: #F2F2F2;
+    margin: 20px 10px 0;
+    flex: 30%;
+    max-width: 30%;
+    border-radius: 1em;
+}
+
+.container_2 aside h2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_2 aside h2 i {
+    margin-top: 4px;
+}
+
+.popular_link_bloc {
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 0 0 5px grey;
+    padding: 5px;
+    border-radius: 1em;
+    display: flex;
+}
+
+.popular_link_bloc:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.img_popular {
+    width: 35%;
+    object-fit: cover;
+    border-radius: 0.8em 0 0 0.8em;
+}
+
+.popular_link_bloc, .img_popular {
+    height: 8em;
+}
+
+.img_popular_text {
+    width: 55%;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img_popular_text h3 {
+    font-size: 1em;
+    color: black;
+    font-weight: 700;
+}
+
+.img_popular_text p {
+    font-size: 0.9em;
+    color: black;
+}
+
+.img_popular_text p span {
+    font-weight: 700;
+}
+
+.img_popular_text div i {
+    font-size: 0.7em;
+    color: #0065FC;
+}
+
+.img_popular_text .star_grey {
+    color: #e0dada;
+}
