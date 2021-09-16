@@ -328,3 +328,61 @@ header a:hover {
 .img_popular_text .star_grey {
     color: #e0dada;
 }
+
+.container_3 {
+    margin: 30px;
+}
+
+.container_3 h2 {
+    margin-top: 40px;
+}
+
+.activity_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.activity_column {
+    flex: 23%;
+    max-width: 23%;
+    padding: 1%;
+}
+
+.activity_bloc {
+    margin-top: 20px;
+    border-radius: 0.8em;
+    box-shadow: 0 0 5px grey;
+}
+
+.activity_bloc:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.img_1_activity, .img_2_activity, .img_3_activity {
+    width: 100%;
+    border-radius: 0.8em 0.8em 0 0;
+    object-fit: cover;
+}
+
+.img_1_activity {
+    height: 20em;
+}
+
+.img_2_activity {
+    height: 10em;
+}
+
+.img_3_activity {
+    height: 6.3em;
+}
+
+.img_activity_title {
+    padding: 10px 0 10px 15px;
+}
+
+figcaption {
+    font-size: 0.9em;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    color: black;
+}
