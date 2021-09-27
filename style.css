@@ -419,3 +419,42 @@ footer {
 .footer_bloc a {
     font-weight: 500;
 }
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+
+    .filters {
+        margin-right: 0px;
+    }
+
+    .container_2 section {
+        margin: 20px 10px 0;
+        flex: 65%;
+        max-width: 65%;
+        background-color: #F2F2F2;
+        border-radius: 1em;
+    }
+
+    .accommodation_container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px -2% 0;
+        justify-content: center;
+    }
+
+    .accommodation_bloc {
+        flex: 43%;
+        max-width: 43%;
+        margin: 2%;
+    }
+
+    .container_2 aside {
+        margin: 20px 10px 0;
+        flex: 35%;
+        max-width: 35%;
+        border-radius: 1em;
+    }
+
+    .popular_link_bloc, .img_popular {
+        height: 12em;
+    }
+}
