@@ -458,3 +458,107 @@ footer {
         height: 12em;
     }
 }
+
+@media all and (max-width: 767px) {
+    header {
+        margin: 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    header nav {
+        order: 4;
+        flex: 100%;
+    }
+
+    .header_logo {
+        padding: 0 30px;
+    }
+
+    .header_li {
+        flex: 50%;
+        text-align: center;
+        padding: 18px 0;
+        border-bottom: solid 2px #F2F2F2;
+        border-top: none;
+    }
+
+    header li a {
+        font-size: 0.9em;
+    }
+
+    .header_li:hover {
+        border-bottom: solid 2px #0065FC;
+        border-top: none;
+    }
+
+    .search_input {
+        flex-grow: 2;
+    }
+
+    .search_button {
+        border-radius: 8px;
+        margin-left: -8px;
+    }
+
+    .search_button::after {
+        font-family: "Font Awesome 5 Free"  ;
+        content: "\f002";
+    }
+
+    .filters_title {
+        width: 100%;
+    }
+
+    .container_2 {
+        margin: 30px 0 0 0;
+        flex-direction: column-reverse;
+    }
+
+    .container_2 aside {
+        margin: 0;
+        max-width: 100%;
+        border-radius: unset;
+    }
+
+    .container_2 section {
+        margin: 0;
+        max-width: 100%;
+        background-color: white;
+        border-radius: unset;
+    }
+
+    .accommodation_container {
+        flex-direction: column;
+    }
+
+    .accommodation_bloc {
+        max-width: 100%;
+    }
+
+    .container_3 {
+        margin: 0 30px 30px 30px;
+    }
+
+   .container_3 h2 {
+       margin-top: 10px;
+   }
+
+    .activity_column {
+        flex: 100%;
+        max-width: 100%;
+        padding: 0 1%;
+    }
+
+    .img_1_activity, .img_2_activity, .img_3_activity {
+        height: 8em;
+    }
+    
+    .footer_container  {
+        flex-direction: column;
+    }
+
+    .footer_bloc {
+        max-width: 100%;
+    }
