@@ -1,3 +1,5 @@
+/* Commun */
+
 * {
     margin: 0;
     padding: 0;
@@ -36,6 +38,8 @@ button {
     border: none;
 }
 
+/* En-tête */
+
 header {
     margin: 2px 0 10px;
     padding: 0 30px;
@@ -73,9 +77,13 @@ header a:hover {
     color: #0065FC;
 }
 
+/* Intro */
+
 .intro {
     margin: 20px 30px 0;
 }
+
+/* Moteur de recherche */
 
 .search {
     margin: 30px 30px 0;
@@ -86,6 +94,8 @@ header a:hover {
 
 .search_icon {
     background-color: #F2F2F2;
+    /* border: solid 1px #F2F2F2; */
+    /* warning : color et border sont de la même couleur */
     border-radius: 10px 0 0 10px;
     font-size: 0.9em;
     padding: 0.9em;
@@ -103,6 +113,8 @@ header a:hover {
     font-weight: bold;
     color: white;
     background-color: #0065FC;
+    /* border: solid 1px #0065FC; */
+    /* warning : color et border sont de la même couleur */
     border-radius: 0 10px 10px 0;
     padding: 0.78em;
 }
@@ -110,6 +122,8 @@ header a:hover {
 .search_button::after {
     content: "Rechercher";
 }
+
+/* Filtres */
 
 .filters {
     margin: 30px 30px 0;
@@ -158,7 +172,11 @@ header a:hover {
 .filter_name:hover {
     color: white;
     background-color: #0065FC;
+    /* border: solid 1px #0065FC; */
+    /* warning : color et border sont de la même couleur */
 }
+
+/* Résultat */
 
 .result {
     margin: 20px 30px 0;
@@ -181,10 +199,14 @@ header a:hover {
     margin-top: 2px;
 }
 
+/* container_2 */
+
 .container_2 {
     margin: 0 20px;
     display: flex;
 }
+
+/* section */
 
 .container_2 section {
     flex: 58%;
@@ -255,6 +277,8 @@ header a:hover {
     font-weight: 700;
     margin-top: 20px;
 }
+
+/* aside */
 
 .container_2 aside {
     padding: 30px;
@@ -329,6 +353,8 @@ header a:hover {
     color: #e0dada;
 }
 
+/* container_3 */
+
 .container_3 {
     margin: 30px;
 }
@@ -387,6 +413,8 @@ figcaption {
     color: black;
 }
 
+/* Footer */
+
 footer {
     background-color: #F2F2F2;
     font-size: 0.9em;
@@ -419,6 +447,10 @@ footer {
 .footer_bloc a {
     font-weight: 500;
 }
+
+/***********/
+/* TABLET */
+/***********/
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
 
@@ -458,6 +490,10 @@ footer {
         height: 12em;
     }
 }
+
+/*************/
+/* MOBILE */
+/*************/
 
 @media all and (max-width: 767px) {
     header {
