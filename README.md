@@ -1,6 +1,6 @@
 # Reservia
 
-My first project in HTML & CSS to become a web developer (Openclassrooms Course)
+An accommodation and activity booking service using HTML & CSS
 
 ## Installation
 
